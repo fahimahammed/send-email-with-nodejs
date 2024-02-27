@@ -31,7 +31,7 @@ async function main() {
 
 app.get('/', (req: Request, res: Response) => {
     main();
-    res.send('Hello World!')
+    res.send('Running!')
 })
 
 app.listen(port, () => {
